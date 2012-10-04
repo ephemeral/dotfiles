@@ -1,5 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/fred/code/typesafe-stack-2.0-samples/scala/play-mini/project'
-let g:netrw_dirhist_2='/home/fred/.dotfiles/vim'
-let g:netrw_dirhist_3='/home/fred/code/jslint.vim/ftplugin/javascript/jslint'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/Pal/.zsh.d'
