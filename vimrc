@@ -31,6 +31,9 @@ set noerrorbells         " don't beep
 set nobackup
 set noswapfile
 
+" Paste Toggle
+set pastetoggle=<F5>
+
 " Filetype plugins
 filetype plugin indent on
 
@@ -47,6 +50,14 @@ nmap <leader>l :set hls!<cr>
 " Fast save and quit
 nmap <leader>w :w<cr>
 nmap <leader>q :q<cr>
+
+" SOLARIZZZZE
+set background=dark
+syntax enable
+let g:solarized_termcolors = 256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized
 
 " Map NERDTreeToggle to convenient key
 nmap <leader>n :NERDTreeToggle<cr>
